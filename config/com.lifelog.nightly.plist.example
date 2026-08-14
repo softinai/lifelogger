@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.lifelog.nightly</string>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>0</integer>
+    <key>Minute</key><integer>1</integer>
+  </dict>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>"$HOME/PATH/TO/lifelogger/bin/nightly.sh"</string>
+  </array>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>TZ</key><string>Region/City</string>
+    <key>OLLAMA_KEEP_ALIVE</key><string>10m</string>
+  </dict>
+
+  <key>StandardOutPath</key><string>/tmp/lifelog.out.log</string>
+  <key>StandardErrorPath</key><string>/tmp/lifelog.err.log</string>
+  <key>RunAtLoad</key><false/>
+  <key>ProcessType</key><string>Background</string>
+</dict>
+</plist>

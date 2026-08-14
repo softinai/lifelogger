@@ -1,0 +1,87 @@
+{
+  "domains": {
+    "ai_eng": {
+      "label": "AI Engineering",
+      "aliases": [
+        "ai",
+        "ml",
+        "llm",
+        "agents",
+        "claude code"
+      ],
+      "status": "active"
+    },
+    "it_dev": {
+      "label": "IT/Dev",
+      "aliases": [
+        "git",
+        "terminal",
+        "infra",
+        "setup"
+      ],
+      "status": "active"
+    },
+    "career": {
+      "label": "Career",
+      "aliases": [
+        "job",
+        "interview",
+        "cv",
+        "application"
+      ],
+      "status": "active"
+    },
+    "finance": {
+      "label": "Finance",
+      "aliases": [
+        "money",
+        "market",
+        "invest"
+      ],
+      "status": "active"
+    },
+    "sport": {
+      "label": "Sport/Health",
+      "aliases": [
+        "gym",
+        "swim",
+        "run",
+        "exercise",
+        "health"
+      ],
+      "status": "active"
+    },
+    "spiritual": {
+      "label": "Spiritual/Mindfulness",
+      "aliases": [
+        "meditation",
+        "prayer"
+      ],
+      "status": "active"
+    },
+    "psych": {
+      "label": "Psychology",
+      "aliases": [
+        "habit",
+        "mindset",
+        "mood"
+      ],
+      "status": "active"
+    },
+    "language": {
+      "label": "Language",
+      "aliases": [
+        "english",
+        "spanish",
+        "french"
+      ],
+      "status": "active"
+    },
+    "other": {
+      "label": "Other",
+      "aliases": [],
+      "status": "active"
+    }
+  },
+  "cap": 15
+}

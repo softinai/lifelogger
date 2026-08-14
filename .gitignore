@@ -1,0 +1,35 @@
+# Never commit captured personal data
+data/
+logs/
+LEARNING_LOG.md
+.lifelog_state.json
+
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Machine-local settings and secrets (an ntfy topic name IS its password)
+config/local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Internal working docs — kept locally, not published
+docs/decisions/
+CLAUDE.md
+
+# Agent session state / local scratch
+.claude/
+.remember/
+.planning/
+
+# macOS
+.DS_Store
